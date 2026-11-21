@@ -1,4 +1,4 @@
-# postplanify-com
+# PostPlanify
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-postplanify-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://postplanify.com/
+PostPlanify is a social media management platform that enables marketing agencies, in‑house teams, and multi‑brand businesses to plan, approve, schedule, publish, and report on posts across ten major social networks. It offers unlimited users per workspace, white‑labeling, AI‑assistant features, bulk scheduling, analytics, and API/MCP access for custom integrations. The service provides a 14‑day free trial, pay‑per‑workspace pricing, and supports platforms including Instagram, Facebook, LinkedIn, X (Twitter), YouTube, Threads, Pinterest, Google Business, TikTok, and Bluesky.
+
+**Areas:** Social Media · Marketing · SaaS · Automation · API
+
+## PostPlanify on APIs.io
+
+Everything profiled for PostPlanify is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/postplanify-com/](https://apis.io/providers/postplanify-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [PostPlanify API](https://apis.io/apis/postplanify-com/postplanify-api/) — API for scheduling and managing social media posts
+- [PostPlanify API API](https://apis.io/apis/postplanify-com/postplanify-api-api/) — The PostPlanify API lets you schedule and manage social media posts across all major platforms programmatically. Use it to build custom integrations,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Comment](https://apis.io/schemas/postplanify-com/postplanify-com-comment/)
+- [Conversation](https://apis.io/schemas/postplanify-com/postplanify-com-conversation/)
+- [CreatePostRequest](https://apis.io/schemas/postplanify-com/postplanify-com-create-post-request/)
+- [EditPostRequest](https://apis.io/schemas/postplanify-com/postplanify-com-edit-post-request/)
+- [Message](https://apis.io/schemas/postplanify-com/postplanify-com-message/)
+- [Post](https://apis.io/schemas/postplanify-com/postplanify-com-post/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Postplanify Com Context](https://apis.io/jsonld/postplanify-com/postplanify-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PostPlanify API Rules](https://apis.io/rules/postplanify-com/postplanify-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PostPlanify Domain Security](https://apis.io/security/postplanify-com/postplanify-com-domain-security/)
+- [PostPlanify Vulnerability Disclosure](https://apis.io/security/postplanify-com/postplanify-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://postplanify.com/)
+- [Documentation](https://postplanify.com/docs)
+- [Getting started](https://postplanify.com/pricing)
+- [API reference](https://postplanify.com/mcp/docs)
+- [Pricing](https://postplanify.com/pricing)
+- [Sign up](https://postplanify.com/signup?show_first_signup_message=true)
+- [Support](https://help.postplanify.com/en/)
+- [Changelog](https://postplanify.com/changelog)
+- [Blog](https://postplanify.com/blog)
+- [Security](https://postplanify.com/security)
+- [Terms of service](https://postplanify.com/terms)
+- [Privacy policy](https://postplanify.com/privacy-policy)
+- [GitHub](https://github.com/PostPlanify)
+
+## API Evangelist rating
+
+**Kin Score 50.2** — developing · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 36.2 |
+
+**Agent readiness 35.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/postplanify-com/](https://apis.io/providers/postplanify-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PostPlanify: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/postplanify-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
